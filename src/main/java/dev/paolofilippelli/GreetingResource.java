@@ -10,7 +10,8 @@ public class GreetingResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String hello() {
+    public String veryLongAndComplicatedMethodName() {
+        String message = "Hello!";
         return "Hello from Quarkus REST";
     }
 }
