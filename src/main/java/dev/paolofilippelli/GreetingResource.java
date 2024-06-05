@@ -8,9 +8,17 @@ import jakarta.ws.rs.core.MediaType;
 @Path("/hello")
 public class GreetingResource {
 
+    public Integer divideByZero() {
+        Integer a = 1;
+        Integer b = 2;
+        return a/b;
+    }
+    
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
+        divideByZero();
+        String secret = "asdasdasd09387492u42";
         return "Hello from Quarkus REST";
     }
 }
