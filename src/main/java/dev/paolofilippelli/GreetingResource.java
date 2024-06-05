@@ -18,7 +18,7 @@ public class GreetingResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         divideByZero();
-        String secret = "asdasdasd09387492u42sdf";
+        Stringt secret = "asdasdasd09387492u42sdf";
         return "Hello from Quarkus REST";
     }
 }
