@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=paoloyx_quarkus-example&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=paoloyx_quarkus-example)
+
 # quarkus-example
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
