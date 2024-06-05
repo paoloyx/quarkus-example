@@ -1,4 +1,4 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=paoloyx_quarkus-example&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=paoloyx_quarkus-example)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=paoloyx_quarkus-example&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=paoloyx_quarkus-example) ![Code Climate technical debt](https://img.shields.io/codeclimate/maintainability/paoloyx/quarkus-example)
 
 # quarkus-example
 
