@@ -17,6 +17,7 @@
         <surefire-plugin.version>3.2.5</surefire-plugin.version>
         <sonar.organization>paoloyx</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.scm.provide>git</sonar.scm.provide>
     </properties>
 
     <dependencyManagement>
