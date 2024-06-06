@@ -6,9 +6,10 @@ on:
   pull_request:
 permissions:
   contents: write
+  packages: write
 jobs:
   build:
-    name: Build
+    name: Scan
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout code
